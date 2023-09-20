@@ -9,11 +9,11 @@ jobs:
     - uses: actions/checkout@master
 
     # - name: GitHub Action for pylint
-    #   uses: mrc0der/github-action-for-python@master
+    #   uses: zerodaysec/github-action-for-python@master
     #   with:
     #     args: pylint --help
 
     # - name: GitHub Action for pylint
-    #   uses: mrc0der/github-action-for-python@master
+    #   uses: zerodaysec/github-action-for-python@master
     #   with:
     #     args: pylint --help
