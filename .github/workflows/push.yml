@@ -1,7 +1,9 @@
+name: CI
+
 on: push
-name: on push
+
 jobs:
-  gitHubActionForPylint:
+  smokeTest:
     name: Python linting
     runs-on: ubuntu-latest
     steps:
