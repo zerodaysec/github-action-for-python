@@ -16,7 +16,7 @@ jobs:
           dockerfile: Dockerfile
       - name: Update Pull Request
         uses: actions/github-script@v6
-        if: github.event_name == 'pull_request'
+        # if: github.event_name == 'pull_request'
         with:
           script: |
             const output = `
