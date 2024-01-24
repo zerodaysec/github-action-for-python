@@ -1,0 +1,9 @@
+# Hadolint configuration file
+
+# configure ignore rules
+# see https://github.com/hadolint/hadolint#rules for a list of available rules.
+ignored:
+ - DL3018
+ - DL3042
+ - DL3013
+ - DL3059 # multi run
